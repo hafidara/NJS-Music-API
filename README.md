@@ -11,3 +11,5 @@ Users can create playlists, view all playlists, and manage the songs within them
 I configured the application to use environment variables from a .env file to manage sensitive information, such as the database connection details. Instead of hardcoding values like database username, password, and database name, I moved these to a .env file and referenced them using environment variables in the TypeORM configuration.
 
 The API has been tested using Postman, ensuring that all CRUD operations function as expected. Responses are structured in a consistent format, and appropriate status codes are returned for different operations.
+
+<img width="1404" alt="Screen Shot 2024-10-27 at 12 57 34 PM" src="https://github.com/user-attachments/assets/beabc986-1290-4993-a209-53b4ff86f1b0">
