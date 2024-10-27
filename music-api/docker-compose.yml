@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:latest
+    container_name: postgres_container
+    env_file:
+      - .env
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}         # Replace with your desired username
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}   # Replace with your desired password
+      POSTGRES_DB: ${POSTGRES_DB}         # Replace with your desired database name
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
