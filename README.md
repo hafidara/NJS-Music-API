@@ -1,4 +1,7 @@
+<div align=center>
 ![spongebob-tired](https://github.com/user-attachments/assets/dc07986e-b020-43b7-8362-1c1f5e46f3b6)
+  
+</div>
 
 
 NestJS is a modern, scalable Node.js framework that facilitates the development of server-side applications. 
